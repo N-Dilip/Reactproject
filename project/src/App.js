@@ -1,16 +1,33 @@
 import './App.css';
-import PropsValidation from './Day 6/PropsValidation'
-import ClickCount from './Day 6/ClickCount'
-import HoverCounter from './Day 6/HoverCounter'
-import SpreadPassingUnkown from './Day 6/SpreadPassingUnkown';
-import './Sample/Fr.css';
-import RefEc from './Day 6/RefEc';
-import UseState from './Day 6/UseState';
-import Loginpage from './Login/LoginPage';
+import Axiosget from './Day 8/Axiosget';
+import DeleteAxios from './Day 8/DeleteAxios';
+import AxiosPost from './Day 8/PostAxios';
 function App() {
   return (
     <div className='App'>
-      <Loginpage />
+      <Axiosget />
+      <AxiosPost />
+      <DeleteAxios />
+      {/* <BrowserRouter>
+     <ul>
+         <li>
+             <Link to='/Home'>home</Link>
+         </li>
+     </ul>
+     <ul>
+      <li>
+        <Link to='/About'>About</Link>
+      </li>
+     </ul>
+     <Navbar/>
+     <Routes>
+          <Route path='/Home' element={<Home/>}></Route>
+          <Route path='/About' element={<About/>}></Route>
+     </Routes>
+     </BrowserRouter> */}
+      {/* <Front />
+      <Footer />
+      <Loginpage /> */}
       {/* <ClickCount />
       <HoverCounter />
       <PropsValidation student={"12"} />

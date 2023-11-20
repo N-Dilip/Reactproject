@@ -1,18 +1,22 @@
 import React from 'react'
 
 export default function Front() {
+  function handleNameChange(){
+      const fruits=['Apple','Orange','Banana','Mango'];
+      const val=Math.floor(Math.random()*4)
+      return fruits[val]
+  }
+  const handleClick =(e)=>{
+    console.log(e.target.value)
+  }
+  const handleOnClick=(name)=>{
+    console.log(`Hello ${name}`)
+  }
   return (
     <div id="id">
-      <h1>Website</h1>
-      <ul>
-        <li><a className='link' href='https://www.youtube.com/'>Home</a></li>
-        <li><a className='link' href='https://www.youtube.com/'>About</a></li>
-        <li><a className='link'href='https://www.youtube.com/'>Contact</a></li>
-        <li><a className='link' href='https://www.youtube.com/'>Phone</a></li>
-      </ul>
-      <div>
-        
-      </div>
+      <h1>Let's Do It</h1>
+      <p></p>
+      <button>Click</button>
     </div>
   )
 }
