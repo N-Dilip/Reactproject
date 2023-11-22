@@ -1,13 +1,13 @@
 import './App.css';
-import Axiosget from './Day 8/Axiosget';
-import DeleteAxios from './Day 8/DeleteAxios';
-import AxiosPost from './Day 8/PostAxios';
+import FixedContainer from './Login/LoginPage';
+
 function App() {
   return (
     <div className='App'>
-      <Axiosget />
+      <FixedContainer />
+      {/* <Axiosget />
       <AxiosPost />
-      <DeleteAxios />
+      <DeleteAxios /> */}
       {/* <BrowserRouter>
      <ul>
          <li>
